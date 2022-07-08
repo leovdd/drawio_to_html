@@ -7,7 +7,7 @@
     </xsl:copy>
   </xsl:template>
 
-<xsl:template match="//diagram[contains(@name,'_')]">
+<xsl:template match="//diagram[contains(substring(@name,1,1),'_')]">
 
 </xsl:template>
 </xsl:stylesheet>
